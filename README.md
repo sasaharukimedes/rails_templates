@@ -64,13 +64,13 @@ bundle binstubs rspec-core
 config/app.rb
 ```
 # 追加分
-    config.generators do |g|
-      g.test_framework :rspec,
-                       fixtures: false,
-                       view_specs: false,
-                       helper_specs: false,
-                       routing_specs: false
-    end
+config.generators do |g|
+  g.test_framework :rspec,
+                    fixtures: false,
+                    view_specs: false,
+                    helper_specs: false,
+                    routing_specs: false
+end
 ```
 
 6. DBの作成
@@ -157,13 +157,13 @@ bundle binstubs rspec-core
 config/app.rb
 ```
 # 追加分
-    config.generators do |g|
-      g.test_framework :rspec,
-                       fixtures: false,
-                       view_specs: false,
-                       helper_specs: false,
-                       routing_specs: false
-    end
+config.generators do |g|
+  g.test_framework :rspec,
+                    fixtures: false,
+                    view_specs: false,
+                    helper_specs: false,
+                    routing_specs: false
+end
 ```
 
 6. DBの作成
