@@ -4,6 +4,9 @@
 1. Rails アプリの作成
 ```
 rails new XXX -c tailwind -d postgresql
+
+# For daisyUI
+rails new XXX -c tailwind -d postgresql -j esbuild
 ```
 2. Gem 関係インストール
 ```   
