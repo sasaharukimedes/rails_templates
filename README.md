@@ -99,6 +99,26 @@ brew services stop postgresql@最新版
 rails db:create
 ```
 
+For daisyUI
+
+7. daisyUI install
+```
+yarn add daisyui
+```
+
+8. tailwindconfig.js
+```
+module.exports = {
+  content: [
+    './app/views/**/*.html.erb',
+    './app/helpers/**/*.rb',
+    './app/assets/stylesheets/**/*.css',
+    './app/javascript/**/*.js'
+  ],
+  plugins: [require("daisyui")]
+}
+```
+
 
 
 ---
